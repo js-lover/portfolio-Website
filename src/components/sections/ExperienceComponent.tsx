@@ -1,38 +1,46 @@
 import ExperienceCardComponent from '../ExperienceCardComponent'
 import data from '../data/experience.json'
+
 const ExperienceComponent = () => {
   return (
-    <div id='experience' className='w-full h-fit  pb-20 mt-20  pt-0 md:px-3 md:px-0 flex flex-col  justify-between items-center '>
-        <div className='flex md:mb-20 mb-10'>
-        <h1 className='font-bold md:text-5xl  text-3xl'>Experience</h1>
-        </div>
-        <div className='flex flex-col gap-5 justify-center items-center '>
-    <ExperienceCardComponent
-      year={data.tav.year}
-      month={data.tav.month}
-      companyName={data.tav.name}
-      role={data.tav.role}
-      description={data.tav.description}
-    /> 
-    <ExperienceCardComponent
-      year={data.ravenFrontend.year}
-      month={data.ravenFrontend.month}
-      companyName={data.ravenFrontend.name}
-      role={data.ravenFrontend.role}
-      description={data.ravenFrontend.description}
-    />
-    <ExperienceCardComponent
-      year={data.ravenBackend.year}
-      month={data.ravenBackend.month}
-      companyName={data.ravenBackend.name}
-      role={data.ravenBackend.role}
-      description={data.ravenBackend.description}
-    />
-    
-     
-        </div>
-          
-        
+    <div id='experience' className='relative w-full py-20 px-4 flex flex-col justify-center items-center overflow-hidden'>
+      {/* Background decorative elements */}
+      <div className="blob-2 top-20 right-10 animate-blob"></div>
+
+      {/* Section Title */}
+      <div className='flex flex-col items-center mb-16 relative z-10'>
+        <h1 className='font-black text-4xl md:text-6xl text-slate-800 section-title mb-4'>
+          Experience
+        </h1>
+        <p className="text-lg text-slate-600 max-w-2xl text-center">
+          My professional journey and contributions
+        </p>
+      </div>
+
+      {/* Experience Timeline */}
+      <div className='flex flex-col gap-6 md:gap-8 w-full max-w-5xl relative z-10'>
+        <ExperienceCardComponent
+          year={data.tav.year}
+          month={data.tav.month}
+          companyName={data.tav.name}
+          role={data.tav.role}
+          description={data.tav.description}
+        />
+        <ExperienceCardComponent
+          year={data.ravenFrontend.year}
+          month={data.ravenFrontend.month}
+          companyName={data.ravenFrontend.name}
+          role={data.ravenFrontend.role}
+          description={data.ravenFrontend.description}
+        />
+        <ExperienceCardComponent
+          year={data.ravenBackend.year}
+          month={data.ravenBackend.month}
+          companyName={data.ravenBackend.name}
+          role={data.ravenBackend.role}
+          description={data.ravenBackend.description}
+        />
+      </div>
     </div>
   )
 }

@@ -1,4 +1,3 @@
-
 interface ExperienceCardProps {
   year: string;
   month: string;
@@ -7,34 +6,43 @@ interface ExperienceCardProps {
   description: string;
 }
 
-
 const ExperienceCardComponent = (props: ExperienceCardProps) => {
   return (
-
-    
-    <div className="md:w-fit w-full h-fit md:pt-10 md:pt-0 flex flex-row justify-center items-start md:pb-10">
-      <div className="md:w-24 md:h-24 w-15 h-15 bg-base-200 shadow-lg md:border-0 md:border-transparent border-1 border-violet-500 xl:flex hidden flex-col justify-center items-center text-center  rounded-full">
-        <h1 className="font-semibold font-mono text-gray-500 md:text-xl text-sm  w-full h-fit">
-          {props.year}
-        </h1>
-        <h3 className="font-light font-mono text-gray-400 text-xs md:text-sm">
-          {props.month}
-        </h3>
+    <div className="w-full flex flex-col md:flex-row gap-4 md:gap-6 items-start group">
+      {/* Date Badge */}
+      <div className="flex-shrink-0">
+        <div className="glass-card w-28 h-28 flex flex-col justify-center items-center rounded-2xl border-2 border-sky-200 p-4 group-hover:border-sky-400 transition-all duration-300 group-hover:shadow-lg">
+          <h1 className="font-bold text-2xl gradient-text">
+            {props.year}
+          </h1>
+          <h3 className="font-medium text-sm text-slate-500 mt-1">
+            {props.month}
+          </h3>
+        </div>
       </div>
 
-      <div className="md:w-2xl xl:w-11/14 w-11/12 h-fit md:border-0 md:border-transparent border-1 border-violet-500 bg-base-200  md:ml-5  md:p-5 p-2  rounded-2xl shadow-lg ">
-        <h1 className="font-bold  md:text-xl text-base text-violet-600">{props.companyName}</h1>
-        <h2 className="font-light md:text-lg text-sm text-violet-500">{props.role}</h2>
-        <h3 className="font-light xl:hidden flex md:text-sm text-xs text-violet-400">
-          {props.year} - {props.month}
-        </h3>
-        <p className="text-gray-500 md:text-lg text-xs">
+      {/* Experience Content */}
+      <div className="flex-1 glass-card rounded-2xl p-6 md:p-8 hover-lift border border-slate-100">
+        {/* Company and Role */}
+        <div className="mb-4">
+          <h1 className="font-black text-xl md:text-2xl gradient-text mb-2">
+            {props.companyName}
+          </h1>
+          <h2 className="font-semibold text-base md:text-lg text-sky-600">
+            {props.role}
+          </h2>
+        </div>
+
+        {/* Description */}
+        <p className="text-slate-600 text-sm md:text-base leading-relaxed">
           {props.description}
         </p>
+
+        {/* Decorative bottom accent */}
+        <div className="mt-6 h-1 w-20 bg-gradient-to-r from-sky-500 to-blue-500 rounded-full"></div>
       </div>
     </div>
- );
+  );
 };
 
 export default ExperienceCardComponent;
-

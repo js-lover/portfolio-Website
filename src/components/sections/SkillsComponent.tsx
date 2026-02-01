@@ -2,39 +2,50 @@ import SkillsCardComponent from "../SkillsCardComponent";
 import data from "../data/skills.json";
 import backend from "../../assets/animations/backend.json";
 import frontend from "../../assets/animations/frontend.json";
+
 const SkillsComponent = () => {
   return (
-    
     <div
       id="skills"
-      className="flex flex-col items-center justify-center w-11/12  h-fit pb-10 rounded-2xl   "
-      style={{
-    background: " linear-gradient(to bottom, #7c3aed 30%, transparent 30%)"
-  }}
+      className="relative flex flex-col items-center justify-center w-full py-20 overflow-hidden"
     >
-      <div className="  md:mt-15 mt-10 mb-0 md:mb-0  text-center">
-        <h1 className="text-3xl md:text-5xl font-bold text-white  ">Skills</h1>
-      </div>
-      <div className="flex md:flex-row flex-col  md:mt-15 mt-8 gap-20 justify-center md:items-start items-center ">
-        <SkillsCardComponent 
-        
-        name={data.frontend.name}
-        description={data.frontend.description}
-        languages={data.frontend.languages}
-        tools={data.frontend.tools}
-        imgSrc={frontend} // Using the image source from the data
+      {/* Background gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-sky-600 via-blue-600 to-sky-800"></div>
 
-        />
-        
-        <SkillsCardComponent 
+      {/* Decorative elements */}
+      <div className="absolute top-10 left-10 w-72 h-72 bg-white/5 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-10 right-10 w-96 h-96 bg-sky-400/10 rounded-full blur-3xl"></div>
 
-          name={data.backend.name}
-        description={data.backend.description}
-        languages={data.backend.languages}
-        tools={data.backend.tools}
-        imgSrc={backend} // Using the image source from the data"
+      {/* Content */}
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4">
+        {/* Section Title */}
+        <div className="text-center mb-16">
+          <h1 className="text-4xl md:text-6xl font-black text-white mb-4">
+            Skills
+          </h1>
+          <p className="text-lg text-sky-200 max-w-2xl mx-auto">
+            Technologies and tools I use to bring ideas to life
+          </p>
+        </div>
 
-        />
+        {/* Skills Cards */}
+        <div className="flex md:flex-row flex-col gap-8 md:gap-12 justify-center items-center md:items-stretch">
+          <SkillsCardComponent
+            name={data.frontend.name}
+            description={data.frontend.description}
+            languages={data.frontend.languages}
+            tools={data.frontend.tools}
+            imgSrc={frontend}
+          />
+
+          <SkillsCardComponent
+            name={data.backend.name}
+            description={data.backend.description}
+            languages={data.backend.languages}
+            tools={data.backend.tools}
+            imgSrc={backend}
+          />
+        </div>
       </div>
     </div>
   );

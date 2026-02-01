@@ -1,24 +1,17 @@
 {
-  "aviationManagement": {
-    "name": "Flight Inventory Management Web Application",
-    "description": "I developed a user-centric web application for the effective tracking of flight inventory. The application aims to boost operational efficiency by monitoring flights in real time through a user-friendly interface, enabling users to understand complex data and take necessary actions quickly.",
-    "visitLink": "https://github.com/SerhatBarisAydin/Flight-Inventory"
-  },
-
-  "airCompanion": {
-    "name": "Air Companion Mobile App",
-    "description": "Developed a mobile application to enhance the airport experience for travelers. The app provides indoor navigation for finding the shortest route within the terminal, an AI-powered chatbot for quick access to flight and service information",
-    "visitLink": "https://github.com/SerhatBarisAydin/rn-starter/tree/File-Architecture"
-  },
-
-  "bankingSystem": {
-    "name": "Bank Automation System",
-    "description": "Developed a Java-based banking automation system with object-oriented design principles. Implemented authentication, fund transfer, and transaction history features.",
-    "visitLink": "https://github.com/SerhatBarisAydin/Baris_Bank"
+  "menzaApp": {
+    "name": "Menza App - Walking Tracker Mobile App",
+    "description": "A React Native mobile application for real-time location tracking and route visualization. Built with Expo, Expo Maps, Supabase, and Zustand for cloud-based data management and state handling.",
+    "visitLink": "https://github.com/js-lover/menza-app"
   },
   "reactChatApp": {
-    "name": "Real Time Chat App",
-    "description": "I developed a user-centric web application for real-time communication. The application allows users to register, login, and exchange messages instantly through a clean and responsive interface, enabling them to stay connected and manage conversations efficiently.",
-    "visitLink": "https://github.com/SerhatBarisAydin/react-chat-app"
+    "name": "Real-Time Chat Application",
+    "description": "A real-time one-to-one messaging application built with React, Socket.IO, Express, MongoDB, JWT, and Tailwind CSS. Features WebSocket-based instant communication and secure authentication.",
+    "visitLink": "https://github.com/js-lover/react-chat-app"
+  },
+  "airCompanion": {
+    "name": "Airport Companion Mobile App",
+    "description": "A React Native mobile application featuring indoor navigation system and AI-powered chatbot integration. Built with Redux, Firebase, and YOLOv5 for enhanced airport experience.",
+    "visitLink": "https://github.com/js-lover/rn-starter/tree/File-Architecture"
   }
 }

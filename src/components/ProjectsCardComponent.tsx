@@ -10,31 +10,61 @@ interface ProjectCardProps {
 
 const ProjectsCardComponent = (props: ProjectCardProps) => {
   return (
-    <div className="w-full  md:h-130 h-fit h md:p-10 p-5 bg-transparent justify-center gap-8 items-center flex flex-col md:flex-row ">
-      {/* <div className=" h-1/1 w-5/13 shadow-sm rounded-xl border-1 border-base-300 bg-blue-600  p-5"></div> */}
-
-      <div style={{backgroundColor: props.color}} className="card  rounded-2xl md:w-5/16 w-full h-full card-lg shadow-sm justify-center items-center  text-gray-500 ">
-        <div className="  w-12/12 h-9/12 flex justify-center items-center" >
-          <Lottie
-            animationData={props.imageSrc}
-            loop={true}
-            className="w-full h-full"
-          />
+    <div className="w-full hover-lift rounded-3xl overflow-hidden">
+      <div className="flex flex-col md:flex-row gap-0 bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100">
+        {/* Animation Side */}
+        <div
+          style={{ backgroundColor: props.color }}
+          className="w-full md:w-2/5 min-h-[250px] md:min-h-[350px] flex justify-center items-center p-8 relative overflow-hidden"
+        >
+          {/* Decorative elements */}
+          <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent"></div>
+          <div className="relative z-10 w-full h-full flex items-center justify-center">
+            <Lottie
+              animationData={props.imageSrc}
+              loop={true}
+              className="w-full h-full max-w-xs"
+            />
+          </div>
         </div>
-      </div>
 
-      <div style={{borderBottomColor:props.color}} className="card md:w-8/16 w-full rounded-2xl bg-base-200 h-full bg-base-100  card-lg shadow-sm justify-center items-center border-b-5 text-gray-500 border-b-blue-600">
-        <div className=" justify-center text-center md:p-10 p-3 h-fit w-full   ">
-          <h2 className="font-semibold  md:text-3xl text-sm mb-5 " style={{color: props.color}}>{props.name}</h2>
-          <p className="md:text-lg  w-full text-xs mb-5">
-            {props.description}
-          </p>
+        {/* Content Side */}
+        <div className="w-full md:w-3/5 p-6 md:p-10 flex flex-col justify-between relative">
+          {/* Accent border on left for desktop */}
+          <div
+            style={{ backgroundColor: props.color }}
+            className="hidden md:block absolute left-0 top-0 bottom-0 w-1"
+          ></div>
+
+          <div>
+            <h2
+              className="font-extrabold text-2xl md:text-4xl mb-4"
+              style={{ color: props.color }}
+            >
+              {props.name}
+            </h2>
+            <p className="text-slate-600 text-base md:text-lg leading-relaxed">
+              {props.description}
+            </p>
+          </div>
+
+          {/* Visit Link */}
           <a
             href={props.visitLink}
-            className="absolute bottom-2 right-5 cursor-pointer underline text-xs md:text-sm font-medium transition-shadow "
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 mt-6 text-base md:text-lg font-semibold transition-all duration-300 hover:gap-4 group w-fit"
             style={{ color: props.color }}
           >
-            Visit Project
+            <span>Visit Project</span>
+            <svg
+              className="w-5 h-5 transition-transform group-hover:translate-x-1"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
           </a>
         </div>
       </div>

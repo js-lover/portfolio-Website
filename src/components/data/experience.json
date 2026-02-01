@@ -1,24 +1,23 @@
 {
   "tav": {
     "name": "TAV Technologies",
-    "description": "I developed and optimized reusable Vue.js components with Vuex state management and API integration, focusing on performance optimization to enhance responsiveness, while actively contributing to team collaboration and embracing a strong, solution-oriented work culture.",
+    "description": "Developed scalable UI components and global state management using Vue.js and Vuex. Worked on API integrations and optimized page load times to enhance performance.",
     "year": "2024",
-    "month": "aug",
+    "month": "Aug - Oct",
     "role": "Frontend Developer Intern"
   },
   "ravenFrontend": {
     "name": "Raven Technology",
-    "description": "I actively contributed to the full lifecycle development of modern, responsive UI components using JavaScript, HTML, and CSS, implemented robust state management for seamless data flow, and collaborated with backend developers to optimize API consumption, enhancing overall performance and responsiveness.",
+    "description": "Built responsive interfaces and UI components using JavaScript, HTML, and CSS. Worked on state management and API consumption to create seamless user experiences.",
     "year": "2024",
-    "month": "feb",
+    "month": "Feb - Jun",
     "role": "Frontend Developer Intern"
   },
-
   "ravenBackend": {
     "name": "Raven Technology",
-    "description": "I developed and optimized RESTful APIs to improve communication between frontend and backend systems, worked extensively with MongoDB for efficient data management, collaborated with frontend developers to integrate APIs for better performance, and strengthened my debugging and problem-solving skills by resolving backend issues affecting the user interface.",
+    "description": "Developed RESTful APIs for frontend and mobile applications, and designed data structures using MongoDB to ensure efficient data management.",
     "year": "2023",
-    "month": "july",
+    "month": "Jul - Sep",
     "role": "Backend Developer Intern"
   }
 }
