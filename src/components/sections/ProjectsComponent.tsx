@@ -2,7 +2,7 @@ import ProjectsCardComponent from '../ProjectsCardComponent'
 import data from '../data/projects.json'
 import plane from '../../assets/animations/Isometric plane.json'
 import chatting from '../../assets/animations/chatting.json'
-import walking from '../../assets/animations/Walking.json'
+import walking from '../../assets/animations/walking.json'
 
 const ProjectsComponent = () => {
   return (
