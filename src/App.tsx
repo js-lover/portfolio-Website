@@ -6,6 +6,7 @@ import FooterComponent from "./components/sections/FooterComponent";
 import HeaderComponent from "./components/sections/HeaderComponent";
 import ProjectsComponent from "./components/sections/ProjectsComponent";
 import SkillsComponent from "./components/sections/SkillsComponent";
+import MediumArticlesComponent from "./components/sections/MediumArticlesComponent";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <ProjectsComponent />
       <ExperienceComponent />
       <EducationComponent />
+      <MediumArticlesComponent />
       <ContactComponent />
       <FooterComponent />
     </div>
