@@ -1,22 +1,19 @@
 {
   "name": "to-do-app",
   "private": true,
-  "homepage": "https://serhatbarisaydin.github.io/portfolio-Website",
+
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.2",
     "@tailwindcss/vite": "^4.1.12",
-    "gh-pages": "^6.3.0",
     "gsap": "^3.13.0",
     "i18next": "^25.8.0",
     "i18next-browser-languagedetector": "^8.2.0",

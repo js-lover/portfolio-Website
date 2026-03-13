@@ -34,10 +34,10 @@ const HeaderComponent = () => {
         </div>
 
         {/* Resume Button - Desktop */}
-        <div className="navbar-end hidden xl:flex">
+        <div className="navbar-end hidden xl:flex ">
           <a
             className="btn-modern flex items-center gap-2 glow-hover"
-            href="/cv.pdf"
+            href="/doc/cv.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -81,7 +81,7 @@ const HeaderComponent = () => {
               </HashLink>
               <div className="border-t border-slate-200 mt-2 pt-2">
                 <a
-                  href="/cv.pdf"
+                  href="/doc/cv.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-modern w-full flex items-center justify-center gap-2 mt-2"
