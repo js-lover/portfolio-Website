@@ -3,38 +3,104 @@
     "name": "Frontend",
     "description": "I create clean, responsive, and user-friendly interfaces, meticulously turning designs into pixel-perfect, interactive web applications. My focus is on delivering seamless user experiences.",
     "languages": [
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/JavaScript.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/TypeScript.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/HTML.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/CSS.svg"
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/JavaScript.svg",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/TypeScript.svg",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/HTML.svg",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/CSS.svg",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      }
     ],
     "tools": [
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/React-Dark.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/VueJS-Dark.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/NextJS-Dark.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/Redux.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/TailwindCSS-Dark.svg",
-      "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/Vite-Dark.svg"
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/React-Dark.svg",
+        "url": "https://react.dev/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/VueJS-Dark.svg",
+        "url": "https://vuejs.org/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/NextJS-Dark.svg",
+        "url": "https://nextjs.org/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/Redux.svg",
+        "url": "https://redux.js.org/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/TailwindCSS-Dark.svg",
+        "url": "https://tailwindcss.com/"
+      },
+      {
+        "icon": "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
+        "url": "https://zustand-demo.pmnd.rs/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/Vite-Dark.svg",
+        "url": "https://vitejs.dev/"
+      }
     ]
   },
   "backend": {
     "name": "Backend",
     "description": "My expertise lies in building robust, scalable, and secure server-side applications and APIs. I focus on creating the logical foundation of a product and optimizing its performance, ensuring seamless data flow and reliable system functionality.",
     "languages": [
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/Java-Dark.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/JavaScript.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/TypeScript.svg"
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/CS.svg",
+        "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/JavaScript.svg",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/TypeScript.svg",
+        "url": "https://www.typescriptlang.org/"
+      }
     ],
     "tools": [
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/NodeJS-Dark.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/ExpressJS-Dark.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/MongoDB.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/MySQL-Dark.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/Supabase-Dark.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/Firebase-Dark.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/Docker.svg",
-      "https://github.com/tandpfun/skill-icons/raw/main/icons/Git.svg"
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/NodeJS-Dark.svg",
+        "url": "https://nodejs.org/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/ExpressJS-Dark.svg",
+        "url": "https://expressjs.com/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/DotNet.svg",
+        "url": "https://dotnet.microsoft.com/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/MongoDB.svg",
+        "url": "https://www.mongodb.com/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/MySQL-Dark.svg",
+        "url": "https://www.mysql.com/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/Supabase-Dark.svg",
+        "url": "https://supabase.com/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/Firebase-Dark.svg",
+        "url": "https://firebase.google.com/"
+      },
+      {
+        "icon": "https://github.com/tandpfun/skill-icons/raw/main/icons/Git.svg",
+        "url": "https://git-scm.com/"
+      }
     ]
   }
 }

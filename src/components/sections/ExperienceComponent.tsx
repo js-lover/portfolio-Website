@@ -9,10 +9,10 @@ const ExperienceComponent = () => {
 
       {/* Section Title */}
       <div className='flex flex-col items-center mb-16 relative z-10'>
-        <h1 className='font-black text-4xl md:text-6xl text-slate-800 section-title mb-4'>
+        <h1 className='font-black text-4xl md:text-6xl text-[var(--text-primary)] section-title mb-4'>
           Experience
         </h1>
-        <p className="text-lg text-slate-600 max-w-2xl text-center">
+        <p className="text-lg text-[var(--text-secondary)] max-w-2xl text-center">
           My professional journey and contributions
         </p>
       </div>

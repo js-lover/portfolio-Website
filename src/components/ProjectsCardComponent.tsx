@@ -6,12 +6,14 @@ interface ProjectCardProps {
   imageSrc?: object;
   visitLink: string;
   color: string;
+  borderColor: string;
+  skills?: string[];
 }
 
 const ProjectsCardComponent = (props: ProjectCardProps) => {
   return (
-    <div className="w-full hover-lift rounded-3xl overflow-hidden">
-      <div className="flex flex-col md:flex-row gap-0 bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100">
+    <div className="w-full hover-lift rounded-3xl overflow-hidden" style={{ borderColor: props.borderColor }}>
+      <div className="flex flex-col md:flex-row gap-0 bg-[var(--bg-light)] rounded-3xl shadow-xl overflow-hidden border  dark:border-neutral-800" style={{ borderColor: props.borderColor }}>
         {/* Animation Side */}
         <div
           style={{ backgroundColor: props.color }}
@@ -43,9 +45,23 @@ const ProjectsCardComponent = (props: ProjectCardProps) => {
             >
               {props.name}
             </h2>
-            <p className="text-slate-600 text-base md:text-lg leading-relaxed">
+            <p className="text-[var(--text-secondary)] text-base md:text-lg leading-relaxed mb-6">
               {props.description}
             </p>
+
+            {/* Skills Tags */}
+            {props.skills && props.skills.length > 0 && (
+              <div className="flex flex-wrap gap-2 mb-4">
+                {props.skills.map((skill, idx) => (
+                  <span
+                    key={idx}
+                    className="text-xs font-semibold px-3 py-1 bg-[var(--bg-hero)] text-[var(--text-primary)] rounded-full border border-[var(--glass-border)]"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Visit Link */}

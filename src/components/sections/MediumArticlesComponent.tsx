@@ -85,17 +85,17 @@ const MediumArticlesComponent = () => {
 
             <div className="max-w-7xl mx-auto relative z-10">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-6xl font-black text-slate-800 section-title mb-4">
+                    <h2 className="text-4xl md:text-6xl font-black text-[var(--text-primary)] section-title mb-4">
                         Recent Articles
                     </h2>
-                    <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+                    <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
                         Sharing my thoughts and experiences on technology and development.
                     </p>
                 </div>
 
                 {loading ? (
                     <div className="flex justify-center items-center h-64">
-                        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-sky-500"></div>
+                        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[var(--primary-start)]"></div>
                     </div>
                 ) : error ? (
                     <div className="text-center text-red-500 hidden">{error}</div>
@@ -109,7 +109,8 @@ const MediumArticlesComponent = () => {
                                 href={article.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="card-modern bg-white/80 rounded-2xl overflow-hidden flex flex-col h-full group"
+
+                                className="card-modern rounded-2xl overflow-hidden flex flex-col h-full group bg-[var(--bg-light)]"
                             >
                                 <div className="h-48 overflow-hidden relative">
                                     <img
@@ -124,23 +125,23 @@ const MediumArticlesComponent = () => {
 
                                 <div className="p-6 flex flex-col flex-grow">
                                     <div className="mb-3 flex items-center gap-2">
-                                        <span className="text-xs font-semibold px-2 py-1 bg-sky-100 text-sky-700 rounded-full">
+                                        <span className="text-xs font-semibold px-2 py-1 bg-[var(--bg-hero)] text-[var(--primary-start)] rounded-full">
                                             {article.categories.length > 0 ? article.categories[0] : 'Tech'}
                                         </span>
-                                        <span className="text-xs text-slate-400">
+                                        <span className="text-xs text-[var(--text-secondary)]">
                                             {formatDate(article.pubDate)}
                                         </span>
                                     </div>
 
-                                    <h3 className="text-xl font-bold text-slate-800 mb-3 group-hover:text-sky-600 transition-colors line-clamp-2">
+                                    <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3 group-hover:text-[var(--primary-start)] transition-colors line-clamp-2">
                                         {article.title}
                                     </h3>
 
-                                    <div className="text-slate-600 text-sm mb-4 line-clamp-3 flex-grow"
+                                    <div className="text-[var(--text-secondary)] text-sm mb-4 line-clamp-3 flex-grow"
                                         dangerouslySetInnerHTML={{ __html: getPreviewText(article.content) }}
                                     />
 
-                                    <div className="mt-auto flex items-center text-sky-600 font-semibold group/link">
+                                    <div className="mt-auto flex items-center text-[var(--text-primary)] font-semibold group/link">
                                         Read Article
                                         <svg className="w-4 h-4 ml-2 transform transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>

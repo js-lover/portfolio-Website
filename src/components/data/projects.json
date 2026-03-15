@@ -1,17 +1,20 @@
 {
   "menzaApp": {
-    "name": "Menza App - Walking Tracker Mobile App",
-    "description": "A React Native mobile application for real-time location tracking and route visualization. Built with Expo, Expo Maps, Supabase, and Zustand for cloud-based data management and state handling.",
-    "visitLink": "https://github.com/js-lover/menza-app"
+    "name": "Menza App - Walking Tracking Mobile App",
+    "description": "Real-time location tracking and dynamic route visualization for activity monitoring on iOS and Android. Built with React Native, Expo, Expo Maps, Supabase, and Zustand for cloud-based data management and state handling.",
+    "visitLink": "https://github.com/js-lover/menza-app",
+    "skills": ["JavaScript","React Native", "Expo", "Expo Maps", "Supabase", "Zustand", "Git"]
   },
   "reactChatApp": {
     "name": "Real-Time Chat Application",
-    "description": "A real-time one-to-one messaging application built with React, Socket.IO, Express, MongoDB, JWT, and Tailwind CSS. Features WebSocket-based instant communication and secure authentication.",
-    "visitLink": "https://github.com/js-lover/react-chat-app"
+    "description": "Low-latency, real-time messaging with secure JWT-based authentication and a responsive UI. Built with React, Socket.IO, Express, MongoDB, and Tailwind CSS for WebSocket-based instant communication.",
+    "visitLink": "https://github.com/js-lover/react-chat-app",
+    "skills": ["JavaScript","React",  "Socket.IO", "Express", "Postman", "MongoDB", "JWT", "Tailwind CSS", "Git"]
   },
   "airCompanion": {
     "name": "Airport Companion Mobile App",
-    "description": "A React Native mobile application featuring indoor navigation system and AI-powered chatbot integration. Built with Redux, Firebase, and YOLOv5 for enhanced airport experience.",
-    "visitLink": "https://github.com/js-lover/rn-starter/tree/File-Architecture"
+    "description": "Indoor navigation system using shortest-path algorithms and a YOLOv5-powered AI chatbot for flight status and gate info. Built with React Native, Redux, Firebase, and JavaScript.",
+    "visitLink": "https://github.com/js-lover/rn-starter/tree/File-Architecture",
+    "skills": ["JavaScript","React Native",  "Redux", "Firebase", "YOLOv5", "Git"]
   }
 }

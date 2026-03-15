@@ -1,12 +1,12 @@
 const FooterComponent = () => {
   return (
-    <footer className="relative bg-gradient-to-r from-sky-600 via-blue-600 to-sky-700 text-white py-12 px-4 overflow-hidden">
+    <footer className="relative bg-[var(--bg-dark)] text-white py-12 px-4 overflow-hidden border-t border-[var(--glass-border)]">
       {/* Decorative top wave */}
-      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 to-orange-400"></div>
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[var(--primary-start)] to-[var(--primary-end)]"></div>
 
       {/* Decorative elements */}
       <div className="absolute top-10 left-10 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-10 right-10 w-72 h-72 bg-sky-400/10 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-10 right-10 w-72 h-72 bg-white/5 rounded-full blur-3xl"></div>
 
       <div className="relative z-10 max-w-6xl mx-auto">
         {/* Main content */}
@@ -29,10 +29,10 @@ const FooterComponent = () => {
               </div>
               <div>
                 <p className="font-black text-2xl">Serhat Barış Aydın</p>
-                <p className="text-sm text-sky-200">Full Stack Developer</p>
+                <p className="text-sm text-white/70">Full-Stack Developer</p>
               </div>
             </div>
-            <p className="text-sky-100 text-sm">
+            <p className="text-white/50 text-sm">
               Copyright © {new Date().getFullYear()} - All rights reserved
             </p>
           </div>

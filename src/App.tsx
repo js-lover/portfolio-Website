@@ -8,18 +8,22 @@ import ProjectsComponent from "./components/sections/ProjectsComponent";
 import SkillsComponent from "./components/sections/SkillsComponent";
 import MediumArticlesComponent from "./components/sections/MediumArticlesComponent";
 
+import { useTheme } from "./hooks/useTheme";
+
 const App = () => {
+  useTheme(); // Initialize theme on app load
+
   return (
     <div className="w-screen min-h-screen overflow-x-hidden bg-gradient-hero">
       <HeaderComponent />
-      <AboutMeComponent />
-      <SkillsComponent />
-      <ProjectsComponent />
-      <ExperienceComponent />
-      <EducationComponent />
-      <MediumArticlesComponent />
-      <ContactComponent />
-      <FooterComponent />
+      <div className="snap-start scroll-mt-20"><AboutMeComponent /></div>
+      <div className="snap-start scroll-mt-20"><SkillsComponent /></div>
+      <div className="snap-start scroll-mt-20"><ProjectsComponent /></div>
+      <div className="snap-start scroll-mt-20"><ExperienceComponent /></div>
+      <div className="snap-start scroll-mt-20"><EducationComponent /></div>
+      <div className="snap-start scroll-mt-20"><MediumArticlesComponent /></div>
+      <div className="snap-start scroll-mt-20"><ContactComponent /></div>
+      <div className="snap-start"><FooterComponent /></div>
     </div>
   );
 };

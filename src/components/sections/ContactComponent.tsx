@@ -48,10 +48,10 @@ const ContactComponent = () => {
 
       {/* Section Title */}
       <div className="text-center relative z-10 mb-8">
-        <h1 className="font-black text-4xl md:text-6xl text-slate-800 section-title mb-4">
+        <h1 className="font-black text-4xl md:text-6xl text-[var(--text-primary)] section-title mb-4">
           Contact Me
         </h1>
-        <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+        <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
           Let's connect and discuss your next project
         </p>
       </div>
@@ -59,7 +59,7 @@ const ContactComponent = () => {
       {/* Contact Container */}
       <div className="flex md:flex-row flex-col justify-center items-stretch gap-6 md:gap-8 w-full max-w-6xl relative z-10">
         {/* Info Card */}
-        <div className="glass-card rounded-3xl p-8 md:p-10 w-full md:w-2/5 flex flex-col justify-between border border-sky-100">
+        <div className="glass-card rounded-3xl p-8 md:p-10 w-full md:w-2/5 flex flex-col justify-between border border-[var(--glass-border)]">
           <div>
             <div className="inline-block p-3 bg-gradient-primary rounded-2xl mb-6">
               <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -71,7 +71,7 @@ const ContactComponent = () => {
               Let's Work Together
             </h1>
 
-            <p className="text-base md:text-lg text-slate-600 leading-relaxed">
+            <p className="text-base md:text-lg text-[var(--text-secondary)] leading-relaxed">
               I'm always open to discussing my projects, brainstorming new ideas,
               or just saying hello. Feel free to reach out to me by sending an
               email or by filling out the form. I believe we can shape the
@@ -81,25 +81,17 @@ const ContactComponent = () => {
 
           {/* Contact Info Icons */}
           <div className="mt-8 space-y-4">
-            <div className="flex items-center gap-3 text-slate-600">
-              <div className="p-2 bg-sky-50 rounded-lg">
-                <svg className="w-5 h-5 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="flex items-center gap-3 text-[var(--text-secondary)]">
+              <div className="p-2 bg-[var(--bg-hero)] rounded-lg">
+                <svg className="w-5 h-5 text-[var(--text-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
               <span className="font-medium">serhatbarisaydin@gmail.com</span>
             </div>
-            <div className="flex items-center gap-3 text-slate-600">
-              <div className="p-2 bg-sky-50 rounded-lg">
-                <svg className="w-5 h-5 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-              </div>
-              <span className="font-medium">+90 542 473 88 47</span>
-            </div>
-            <div className="flex items-center gap-3 text-slate-600">
-              <div className="p-2 bg-indigo-50 rounded-lg">
-                <svg className="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="flex items-center gap-3 text-[var(--text-secondary)]">
+              <div className="p-2 bg-[var(--bg-hero)] rounded-lg">
+                <svg className="w-5 h-5 text-[var(--text-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
@@ -112,13 +104,13 @@ const ContactComponent = () => {
         {/* Contact Form */}
         <form
           ref={form}
-          className="glass-card rounded-3xl p-8 md:p-10 w-full md:w-3/5 flex flex-col gap-5 border border-sky-100"
+          className="glass-card rounded-3xl p-8 md:p-10 w-full md:w-3/5 flex flex-col gap-5 border border-[var(--glass-border)]"
           onSubmit={sendEmail}
         >
           {/* Name and Surname Row */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex flex-col gap-2">
-              <label className="text-sm font-semibold text-slate-700">
+              <label className="text-sm font-semibold text-[var(--text-secondary)]">
                 First Name
               </label>
               <input
@@ -131,7 +123,7 @@ const ContactComponent = () => {
               />
             </div>
             <div className="flex flex-col gap-2">
-              <label className="text-sm font-semibold text-slate-700">
+              <label className="text-sm font-semibold text-[var(--text-secondary)]">
                 Last Name
               </label>
               <input
@@ -147,7 +139,7 @@ const ContactComponent = () => {
 
           {/* Email */}
           <div className="flex flex-col gap-2">
-            <label className="text-sm font-semibold text-slate-700">
+            <label className="text-sm font-semibold text-[var(--text-secondary)]">
               Email Address
             </label>
             <input
@@ -162,7 +154,7 @@ const ContactComponent = () => {
 
           {/* Message */}
           <div className="flex flex-col gap-2">
-            <label className="text-sm font-semibold text-slate-700">
+            <label className="text-sm font-semibold text-[var(--text-secondary)]">
               Your Message
             </label>
             <textarea

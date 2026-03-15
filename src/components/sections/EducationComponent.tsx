@@ -3,17 +3,17 @@ const EducationComponent = () => {
         <div id='education' className='relative w-full py-20 px-4 flex flex-col justify-center items-center'>
             {/* Section Title */}
             <div className='flex flex-col items-center mb-16 relative z-10'>
-                <h1 className='font-black text-4xl md:text-6xl text-slate-800 section-title mb-4'>
+                <h1 className='font-black text-4xl md:text-6xl text-[var(--text-primary)] section-title mb-4'>
                     Education
                 </h1>
-                <p className="text-lg text-slate-600 max-w-2xl text-center">
+                <p className="text-lg text-[var(--text-secondary)] max-w-2xl text-center">
                     My academic background
                 </p>
             </div>
 
             {/* Education Card */}
             <div className='w-full max-w-4xl relative z-10'>
-                <div className="glass-card rounded-3xl p-8 md:p-12 hover-lift border border-indigo-100">
+                <div className="glass-card rounded-3xl p-8 md:p-12 hover-lift border border-[var(--glass-border)]">
                     <div className="flex flex-col md:flex-row gap-6 items-start">
                         {/* University Icon */}
                         <div className="flex-shrink-0">
@@ -31,16 +31,16 @@ const EducationComponent = () => {
                             <h2 className="text-2xl md:text-3xl font-black gradient-text mb-2">
                                 Istanbul University - Cerrahpaşa
                             </h2>
-                            <h3 className="text-lg md:text-xl font-semibold text-indigo-600 mb-3">
+                            <h3 className="text-lg md:text-xl font-semibold text-[var(--text-primary)] mb-3">
                                 Computer Engineering
                             </h3>
-                            <div className="flex items-center gap-2 text-slate-600 mb-4">
+                            <div className="flex items-center gap-2 text-[var(--text-secondary)] mb-4">
                                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                 </svg>
                                 <span className="font-medium">September 2020 - July 2025</span>
                             </div>
-                            <p className="text-slate-600 text-base">
+                            <p className="text-[var(--text-secondary)] text-base">
                                 Pursuing a Bachelor's degree in Computer Engineering with a focus on software development,
                                 algorithms, and modern web technologies.
                             </p>

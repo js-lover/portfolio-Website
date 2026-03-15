@@ -1,21 +1,21 @@
 {
   "tav": {
     "name": "TAV Technologies",
-    "description": "Developed scalable UI components and global state management using Vue.js and Vuex. Worked on API integrations and optimized page load times to enhance performance.",
+    "description": "Engineered and optimized a library of reusable Vue.js components to improve scalability and maintainability. Designed a centralized state management architecture using Vuex for efficient data flow. Improved API integration and real-time data processing, leading to better application responsiveness.",
     "year": "2024",
     "month": "Aug - Oct",
     "role": "Frontend Developer Intern"
   },
   "ravenFrontend": {
     "name": "Raven Technology",
-    "description": "Built responsive interfaces and UI components using JavaScript, HTML, and CSS. Worked on state management and API consumption to create seamless user experiences.",
+    "description": "Developed modern, responsive UI components using JavaScript, HTML, and CSS. Implemented scalable state management solutions to reduce redundant data fetching. Streamlined API integration in partnership with backend engineers for faster load times.",
     "year": "2024",
     "month": "Feb - Jun",
     "role": "Frontend Developer Intern"
   },
   "ravenBackend": {
     "name": "Raven Technology",
-    "description": "Developed RESTful APIs for frontend and mobile applications, and designed data structures using MongoDB to ensure efficient data management.",
+    "description": "Engineered and deployed production-grade RESTful APIs for frontend and mobile apps. Architected scalable MongoDB data structures and optimized queries for fast, reliable data access.",
     "year": "2023",
     "month": "Jul - Sep",
     "role": "Backend Developer Intern"

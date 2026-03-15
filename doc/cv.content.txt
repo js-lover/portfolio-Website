@@ -1,0 +1,79 @@
+Serhat Barış AYDIN 
+Full-Stack Developer
+  
+ 
+serhatbarisaydin@gmail.com  ·  90 542 *** ** **  ·  LinkedIn  ·  GitHub  ·  Website 
+ 
+Summary 
+ 
+Full-stack developer with proven experience delivering web and mobile applications across React, React Native, Node.js, and 
+.NET Web API. Built real-world products spanning real-time systems, AI-powered mobile apps, and cloud-integrated platforms. 
+Currently deepening backend expertise in .NET Minimal API and layered architecture. 
+Education 
+ 
+Istanbul University - Cerrahpasa                          Istanbul,Turkey 
+Department of Computer Engineering                    September 2020 – July 2025 
+ 
+Skills 
+ 
+Frontend: JavaScript · React · React Native · Next.js · HTML5/CSS3     Mobile: React Native · Expo 
+Backend: Node.js · Express.js · .NET Web API · .NET Minimal API     State Management: Redux · Zustand  
+Database: MongoDB · MySQL · Firebase · Supabase         Real-Time: Socket.IO 
+Architecture: Layered Architecture · RESTful API Design        Tools: Git · GitHub · Postman · VS Code 
+ 
+Projects 
+ 
+Menza App - Walking Tracking Mobile App · React Native, Expo, Expo Maps, Supabase, Zustand, Git              Github 
+• Engineered real-time location tracking and dynamic route visualization screens in React Native, delivering a seamless and 
+responsive activity monitoring experience across both iOS and Android platforms. 
+• Architected a high-performance, scalable mobile application foundation integrating Expo Maps for geospatial rendering, 
+Supabase for cloud-based data management and secure authentication, and Zustand for lightweight yet efficient global 
+state management. 
+Real-Time Chat Application · React, JavaScript, Socket.IO, Express, Postman, MongoDB, JWT, Tailwind, Git     Github 
+• Architected a low-latency, real-time one-to-one messaging infrastructure leveraging Socket.IO WebSocket protocol, paired 
+with a secure JWT-based authentication system to ensure protected and persistent user sessions. 
+• Engineered a fully responsive, user-centered UI using React and Tailwind CSS, delivering a consistent and accessible 
+cross-device experience across mobile, tablet, and desktop breakpoints. 
+Airport Companion Mobile Application · React Native, Redux, Firebase, JavaScript, YOLOv5, Git          Github 
+• Engineered an indoor navigation system with intelligent terminal wayfinding, implementing shortest-path algorithms to guide 
+users through complex airport environments in real time. 
+• Integrated a YOLOv5-powered AI chatbot and developed dynamic mobile interfaces delivering real-time access to live flight 
+status, gate information, and airport service data  significantly reducing passenger friction and improving in-airport 
+navigation experience. 
+ 
+Experience 
+ 
+TAV Technologies                                     Istanbul,Turkey 
+Frontend Developer Intern                          August 2024 – October 2024 
+• Engineered and optimized a library of reusable Vue.js components, directly improving application scalability and long-term 
+maintainability by reducing code duplication across the codebase. 
+• Leveraged Vuex to design a centralized state management architecture, enabling predictable and efficient data flow across 
+multiple components and eliminating redundant API calls. 
+• Drove end-to-end API integration and real-time data processing improvements, alongside targeted performance 
+optimizations that yielded measurable reductions in page load times and significantly enhanced overall application 
+responsiveness. 
+----------------Page (0) Break----------------
+Raven Technology                               Istanbul,Turkey 
+Frontend Developer Intern                          February 2024 – June 2024 
+• Spearheaded the end-to-end development of modern, responsive UI components leveraging JavaScript, HTML, and CSS 
+improving cross-device compatibility and reducing UI inconsistencies by standardizing component architecture. 
+• Architected and implemented scalable state management solutions, reducing redundant data fetching and improving 
+application performance by ensuring a single source of truth across all components. 
+• Partnered with backend engineers to streamline API integration and optimize data consumption patterns, resulting in 
+measurably faster load times and a more responsive user experience. 
+ 
+Raven Technology                               Istanbul,Turkey 
+Backend Developer Intern                          July 2023 – September 2023 
+• Engineered and deployed production-grade RESTful APIs serving both frontend and mobile applications, optimizing data 
+flow architecture to minimize response latency and support high-concurrency request handling. 
+• Architected scalable MongoDB data structures and schema designs in close alignment with frontend requirements, 
+implementing indexing and query optimization strategies to ensure fast, reliable, and sustainable data access under growing 
+load. 
+ 
+ 
+Languages 
+ 
+● Turkish Native 
+● English B2 — YDS 76.25/100 
+ 
+----------------Page (1) Break----------------
