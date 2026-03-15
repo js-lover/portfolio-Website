@@ -27,9 +27,11 @@ const AboutMeComponent = () => {
             </div>
           </div>
 
-          {/* Name with gradient */}
+          {/* Name with solid text to fix iOS Safari GSAP clipping bug */}
           <SplitText
-            text={<h1 className="text-4xl md:text-6xl font-extrabold mb-4 gradient-text">SERHAT BARIS AYDIN</h1>}
+            text="SERHAT BARIS AYDIN"
+            tag="h1"
+            className="text-4xl md:text-6xl font-extrabold mb-4 text-[var(--text-primary)] tracking-tight"
             delay={100}
             duration={0.6}
             ease="power3.out"
