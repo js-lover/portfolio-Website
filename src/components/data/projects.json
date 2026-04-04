@@ -16,5 +16,11 @@
     "description": "Indoor navigation system using shortest-path algorithms and a YOLOv5-powered AI chatbot for flight status and gate info. Built with React Native, Redux, Firebase, and JavaScript.",
     "visitLink": "https://github.com/js-lover/rn-starter/tree/File-Architecture",
     "skills": ["JavaScript","React Native",  "Redux", "Firebase", "YOLOv5", "Git"]
+  },
+  "paymentSystem": {
+    "name": "Payment System",
+    "description": "A payment processing architecture and backend built with C# and .NET, designed to handle transactions efficiently and securely.",
+    "visitLink": "https://github.com/js-lover/payment-system",
+    "skills": ["C#", ".NET", "Backend", "Architecture", "Git"]
   }
 }

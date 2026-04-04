@@ -21,7 +21,7 @@ const ProjectsCardComponent = (props: ProjectCardProps) => {
         >
           {/* Decorative elements */}
           <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent"></div>
-          <div className="relative z-10 w-full h-full flex items-center justify-center">
+          <div className="relative z-1 w-full h-full flex items-center justify-center">
             <Lottie
               animationData={props.imageSrc}
               loop={true}

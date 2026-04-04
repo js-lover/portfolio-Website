@@ -3,6 +3,7 @@ import data from '../data/projects.json'
 import plane from '../../assets/animations/Isometric plane.json'
 import chatting from '../../assets/animations/chatting.json'
 import walking from '../../assets/animations/walking.json'
+import paymentAnimation from '../../assets/animations/Payment.json'
 
 const ProjectsComponent = () => {
   return (
@@ -35,10 +36,10 @@ const ProjectsComponent = () => {
         <ProjectsCardComponent
           name={data.reactChatApp.name}
           description={data.reactChatApp.description}
-          color='#FF8B5A'
+          color='#905080'
           imageSrc={chatting}
           visitLink={data.reactChatApp.visitLink}
-          borderColor='#FF8B5A'
+          borderColor='#905080'
           skills={data.reactChatApp.skills}
         />
 
@@ -46,10 +47,20 @@ const ProjectsComponent = () => {
           name={data.airCompanion.name}
           description={data.airCompanion.description}
           visitLink={data.airCompanion.visitLink}
-          color='#FFA95A'
+          color='#557ed0'
           imageSrc={plane}
-          borderColor='#FFA95A'
+          borderColor='#557ed0'
           skills={data.airCompanion.skills}
+        />
+
+        <ProjectsCardComponent
+          name={data.paymentSystem.name}
+          description={data.paymentSystem.description}
+          visitLink={data.paymentSystem.visitLink}
+          color='#4eec91'
+          imageSrc={paymentAnimation}
+          borderColor='#4eec91'
+          skills={data.paymentSystem.skills}
         />
       </div>
     </div>
