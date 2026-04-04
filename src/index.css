@@ -34,23 +34,26 @@
 
   /* Surfaces */
   --glass-bg: rgba(255, 255, 255, 0.9);
-  --glass-border: rgba(43, 46, 74, 0.1); 
+  --glass-border: rgba(43, 46, 74, 0.1);
 }
 
 /* Dark mode overrides */
 [data-theme="dark"] {
   --primary-start: var(--color-crimson);
   --primary-end: var(--color-maroon);
-  
+
   --bg-light: var(--color-navy);
-  --bg-dark: #1c1e32; /* Deeper navy */
+  --bg-dark: #1c1e32;
+  /* Deeper navy */
   --bg-hero: var(--color-navy);
 
   --text-primary: var(--color-white);
   --text-secondary: rgba(255, 255, 255, 0.7);
 
-  --glass-bg: rgba(83, 53, 74, 0.5); /* Mulberry base for depth */
-  --glass-border: rgba(232, 69, 69, 0.2); /* Crimson hint */
+  --glass-bg: rgba(83, 53, 74, 0.5);
+  /* Mulberry base for depth */
+  --glass-border: rgba(232, 69, 69, 0.2);
+  /* Crimson hint */
 }
 
 /* Global font */
@@ -88,7 +91,8 @@ html {
 }
 
 .glass-dark {
-  background: rgba(43, 46, 74, 0.9); /* Navy */
+  background: rgba(43, 46, 74, 0.9);
+  /* Navy */
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -312,7 +316,7 @@ html {
   position: absolute;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(232, 69, 69, 0.08) 0%, rgba(255,255,255,0) 70%);
+  background: radial-gradient(circle, rgba(232, 69, 69, 0.08) 0%, rgba(255, 255, 255, 0) 70%);
   border-radius: 50%;
   filter: blur(40px);
   z-index: -1;
@@ -322,7 +326,7 @@ html {
   position: absolute;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(43, 46, 74, 0.05) 0%, rgba(255,255,255,0) 70%);
+  background: radial-gradient(circle, rgba(43, 46, 74, 0.05) 0%, rgba(255, 255, 255, 0) 70%);
   border-radius: 50%;
   filter: blur(40px);
   z-index: -1;

@@ -9,7 +9,7 @@ const AboutMeComponent = () => {
       <div className="blob-2 bottom-20 -right-20 animate-blob" style={{ animationDelay: "-4s" }}></div>
 
       <div className="hero-content relative z-10 w-full max-w-[90rem] mx-auto px-6 md:px-12 lg:px-20 flex flex-col md:flex-row items-center justify-between gap-12 md:gap-20">
-        
+
         {/* Left Column: Image */}
         <div className="w-full md:w-5/12 flex justify-center md:justify-end">
           <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full group flex-shrink-0">
@@ -26,7 +26,7 @@ const AboutMeComponent = () => {
 
         {/* Right Column: Content */}
         <div className="w-full md:w-7/12 flex flex-col items-center md:items-start text-center md:text-left">
-          
+
           {/* Name Accent Subtitle */}
           <div className="w-full mb-4">
             <p className="inline-block text-lg md:text-xl font-bold uppercase tracking-[0.15em] text-[var(--accent-primary)] opacity-90 border-b-2 border-[var(--cursor-color)] pb-1">
@@ -65,7 +65,7 @@ const AboutMeComponent = () => {
           {/* Mobile Title */}
           <div className="block md:hidden mb-6 w-full">
             <SplitText
-              text="Full-Stack"
+              text="Full-Stack Developer"
               tag="h1"
               className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tighter leading-[1.1]"
               delay={100}
